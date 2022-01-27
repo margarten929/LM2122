@@ -1,0 +1,42 @@
+/* line 25, ../../../../../REPOSITORIO/LM2122/SASS EXERCISE/sass/estilos.scss */
+body {
+  background-color: #cccccc;
+}
+
+/* line 29, ../../../../../REPOSITORIO/LM2122/SASS EXERCISE/sass/estilos.scss */
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #e53e1c;
+  font-family: Arial;
+  font-size: 70px;
+}
+
+/* line 35, ../../../../../REPOSITORIO/LM2122/SASS EXERCISE/sass/estilos.scss */
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 80px;
+  padding: 0;
+  justify-content: center;
+}
+
+/* line 41, ../../../../../REPOSITORIO/LM2122/SASS EXERCISE/sass/estilos.scss */
+ul li {
+  color: white;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+/* line 44, ../../../../../REPOSITORIO/LM2122/SASS EXERCISE/sass/estilos.scss */
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=estilos.css.map */

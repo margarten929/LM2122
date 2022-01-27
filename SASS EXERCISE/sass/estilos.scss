@@ -1,0 +1,49 @@
+$primary-color: #cccccc;
+$secundary-color: #e53e1c;
+$body-font: Arial;
+
+@mixin Letraenlace {
+  color: black;
+  font-family: $body-font;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@mixin LetraLista {
+  color: white;
+  font-family: $body-font;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@mixin Titulo {
+  color: $secundary-color;
+  font-family: $body-font;
+  font-size: 70px;
+}
+
+body {
+  background-color: $primary-color;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  @include Titulo;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 80px;
+  padding: 0;
+  justify-content: center;
+  li {
+    @include LetraLista;
+    padding: 50px;
+    a {
+      text-decoration: none;
+      @include Letraenlace;
+    }
+  }
+}

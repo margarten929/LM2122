@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "estilos.css",
+	"sources": [
+		"../sass/estilos.scss"
+	],
+	"sourcesContent": [
+		"$primary-color: #cccccc;\r\n$secundary-color: #e53e1c;\r\n$body-font: Arial;\r\n\r\n@mixin Letraenlace {\r\n  color: black;\r\n  font-family: $body-font;\r\n  font-size: 30px;\r\n  font-weight: bold;\r\n}\r\n\r\n@mixin LetraLista {\r\n  color: white;\r\n  font-family: $body-font;\r\n  font-size: 30px;\r\n  font-weight: bold;\r\n}\r\n\r\n@mixin Titulo {\r\n  color: $secundary-color;\r\n  font-family: $body-font;\r\n  font-size: 70px;\r\n}\r\n\r\nbody {\r\n  background-color: $primary-color;\r\n}\r\n\r\nh1 {\r\n  display: flex;\r\n  justify-content: center;\r\n  @include Titulo;\r\n}\r\n\r\nul {\r\n  display: flex;\r\n  list-style-type: none;\r\n  margin: 80px;\r\n  padding: 0;\r\n  justify-content: center;\r\n  li {\r\n    @include LetraLista;\r\n    padding: 50px;\r\n    a {\r\n      text-decoration: none;\r\n      @include Letraenlace;\r\n    }\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAwBA,AAAA,IAAI,CAAC;EACH,gBAAgB,EAzBF,OAAO;CA0BtB;;;AAED,AAAA,EAAE,CAAC;EACD,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EAXvB,KAAK,EAlBW,OAAO;EAmBvB,WAAW,EAlBD,KAAK;EAmBf,SAAS,EAAE,IAAI;CAWhB;;;AAED,AAAA,EAAE,CAAC;EACD,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,CAAC;EACV,eAAe,EAAE,MAAM;CASxB;;;AAdD,AAME,EANA,CAMA,EAAE,CAAC;EA5BH,KAAK,EAAE,KAAK;EACZ,WAAW,EAXD,KAAK;EAYf,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EA2Bf,OAAO,EAAE,IAAI;CAKd;;;AAbH,AASI,EATF,CAMA,EAAE,CAGA,CAAC,CAAC;EACA,eAAe,EAAE,IAAI;EAvCzB,KAAK,EAAE,KAAK;EACZ,WAAW,EAJD,KAAK;EAKf,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CAsCd"
+}
